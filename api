@@ -36,7 +36,7 @@ end
 --==================================================
 
 local function RunMainScript()
-    local URL = "https://raw.githubusercontent.com/indnoname/aimbot/refs/heads/main/aimbot"
+    local URL = "https://raw.githubusercontent.com/indnoname/main/refs/heads/main/aimblox"
     local success, result = pcall(function()
         return game:HttpGet(URL)
     end)
